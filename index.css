@@ -1,0 +1,158 @@
+
+.nav{
+    margin-right: 40px !important;
+    margin-left: 10px !important;
+}
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+a{
+    color: white !important;
+}
+.box{
+    padding-bottom: 120px;
+}
+.box1,.box2{
+    margin-top: 45px !important;
+    margin-left: 30px !important;
+    margin-bottom: 30px !important;
+}
+.but{
+    width: 300px !important;
+}
+.box1{
+    margin-top: 190px !important;
+}
+.box2 img{
+    border-radius: 30px;
+    height: 400px;
+}
+.bx{
+    padding: 70px !important;
+}
+.bx1 input{
+ border: 0px;
+ outline: none;
+}
+.boxs{
+
+    background-color: white;
+    padding-top: 100px !important;
+    padding: 30px;
+}
+.boxs1,.boxs2,.boxs3{
+    margin-left: 35px;
+    padding-top: 40px;
+    padding: 60px;
+    text-align: center;
+  border: 2px solid white;
+  background-color: black;
+}
+.im img{
+    width: 400px;
+    height: 370px;
+    background-color: white;
+}
+.im1{
+    padding-top: 100px;
+}
+.im{
+    padding-bottom: 150px !important;
+    padding-top: 100px !important;
+    padding: 60px;
+}
+.ims1 img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.ims{
+    text-align: center;
+    padding: 40px;
+}
+.b{
+    border: 2px solid white;
+    margin: 20px;
+    background-color:white;
+    color: black !important;
+    padding: 20px;
+}
+
+/* Mobile view */
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .nav{
+        margin-right:0px !important;
+    }
+    .hed{
+     flex-direction: column !important;
+    }
+    .box{
+      margin-left: 0px !important;
+      padding: 10px !important;
+    }
+  .box1{
+    margin-top: 90px !important;
+    /* padding-left: 0px !important; */
+  }
+  .box2,.box1{
+    margin-left: 0px !important;
+  }
+  .box2{
+    margin-top: 0px !important;
+    margin-bottom: 90px !important;
+  }
+  .box2 img{
+   
+    width: 400px !important;
+  }
+  .bx{
+    flex-direction: column !important;
+    padding: 20px !important;
+  }
+  .bx1{
+    width: 700px !important;
+    box-sizing: content-box !important;
+  }
+  .bx input{
+    width: 250px !important;
+  }
+  .bx button{
+    margin-top: 20px !important;
+  }
+.boxs1,.boxs2,.boxs3{
+    margin-left: 0px;
+    margin-bottom: 60px;
+}
+  .im img{
+    width: 250px;
+    height: 270px;
+  }
+  .im{
+    padding: 20px;
+  }
+  .b{
+    margin-bottom: 60px !important;
+  }
+}
+
+/* tap view */
+@media only screen and (min-width: 480px) and (max-width: 780px){
+.box1{
+    padding-left: 0px !important;
+}
+.boxs{
+  padding-left: 0px;
+}
+.bx input{
+    width: 300px !important;
+}
+.bx button{
+    margin-top: 20px !important;
+  }
+  .im1{
+    padding-top: 30px !important;
+  }
+  .b{
+    margin-bottom: 50px !important;
+  }
+}
